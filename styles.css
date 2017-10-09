@@ -4,6 +4,12 @@ body {
   font-family: 'Karla', sans-serif !important;
 }
 
+i {
+  color: #FFF;
+  font-size: 3.5em !important;
+  margin-bottom: 3%;
+}
+
 #wrapper {
   display: flex;
   flex-direction: column;
@@ -33,13 +39,17 @@ header {
   background-size: cover;
   order: 1;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .main-text {
   position: fixed;
-  right: 1%;
+  right: 0;
   bottom: 30%;
   color: #FFF;
+  padding: 5%;
 }
 
 .main-text h1,
