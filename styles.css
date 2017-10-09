@@ -28,8 +28,39 @@ header {
   height: 92vh;
   background: linear-gradient(
     rgba(78, 75, 75, 0.7), 
-    rgba(3, 38, 112, 0.7) 30%),
+    rgba(0, 16, 63, 0.7) 30%),
     url(./images/image1.jpg);
   background-size: cover;
   order: 1;
+  position: relative;
+}
+
+.main-text {
+  position: fixed;
+  right: 1%;
+  bottom: 30%;
+  color: #FFF;
+}
+
+.main-text h1,
+.main-text a {
+  text-transform: uppercase;
+}
+
+.banner-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-btns > a {
+  font-size: 0.9em !important;
+  border-radius: 0 !important;
+  padding: 3% 6% !important;
+  border: 2px solid #FFF !important;
+  width: 48%;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #000 !important;
 }
