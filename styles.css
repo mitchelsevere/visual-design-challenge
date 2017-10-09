@@ -84,7 +84,6 @@ i:hover {
 .secondary-content {
   width: 100%;
   height: 60vh;
-  order: 3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,10 +99,7 @@ i:hover {
 }
 
 .main-image {
-  position: relative;
-  height: 35vh;
   width: 100%;
-  z-index: -99;
 }
 
 img {
@@ -117,11 +113,9 @@ footer {
   flex-direction: column;
   text-align: center;
   height: 60vh;
-  order: 4;
 }
 
 .fixed-nav {
-  order: 1;
   position: fixed;
   opacity: 1;
 }
