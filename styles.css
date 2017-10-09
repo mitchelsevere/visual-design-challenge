@@ -99,6 +99,12 @@ i:hover {
   margin-top: 20vh;
 }
 
+.main-image {
+  position: relative;
+  height: 35vh;
+  z-index: -99;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -116,4 +122,20 @@ footer {
 
 .fade {
   opacity: 0;
+}
+
+.lines {
+  position: absolute;
+  top: 5.25vh;
+  left: 1.25vh;
+  transform: rotate(164deg);
+  width: 98%;
+  height: 40vh;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000; 
+}
+
+#second {
+  opacity: 0;
+  margin-bottom: 5vh;
 }
